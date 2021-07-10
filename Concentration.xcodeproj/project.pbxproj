@@ -56,15 +56,23 @@
 		38DF83792698C5A600287812 /* Concentration */ = {
 			isa = PBXGroup;
 			children = (
-				38DF837A2698C5A600287812 /* AppDelegate.swift */,
-				38DF837C2698C5A600287812 /* SceneDelegate.swift */,
+				38DF838E2698C65A00287812 /* add files */,
 				38DF837E2698C5A600287812 /* ViewController.swift */,
 				38DF83802698C5A600287812 /* Main.storyboard */,
-				38DF83832698C5A900287812 /* Assets.xcassets */,
 				38DF83852698C5A900287812 /* LaunchScreen.storyboard */,
 				38DF83882698C5A900287812 /* Info.plist */,
 			);
 			path = Concentration;
+			sourceTree = "<group>";
+		};
+		38DF838E2698C65A00287812 /* add files */ = {
+			isa = PBXGroup;
+			children = (
+				38DF837A2698C5A600287812 /* AppDelegate.swift */,
+				38DF837C2698C5A600287812 /* SceneDelegate.swift */,
+				38DF83832698C5A900287812 /* Assets.xcassets */,
+			);
+			path = "add files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,6 +297,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 529RQ8FURU;
 				INFOPLIST_FILE = Concentration/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,6 +317,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 529RQ8FURU;
 				INFOPLIST_FILE = Concentration/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
